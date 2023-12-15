@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connectors.AI.Bedrock", "Connectors.AI.Bedrock\Connectors.AI.Bedrock.csproj", "{8CE2605B-AAC7-43B0-BFFC-50E562439AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWithBedrock", "ChatWithBedrock\ChatWithBedrock.csproj", "{747D1857-5C56-4D4E-B1B4-6B550AD59475}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetFMPlayground.Core", "DotnetFMPlayground.Core\DotnetFMPlayground.Core.csproj", "{D92B5724-5283-495C-9988-34D9012CDC4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{71899F27-0655-4915-8D19-9C8D1238E51C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE2605B-AAC7-43B0-BFFC-50E562439AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE2605B-AAC7-43B0-BFFC-50E562439AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE2605B-AAC7-43B0-BFFC-50E562439AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE2605B-AAC7-43B0-BFFC-50E562439AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747D1857-5C56-4D4E-B1B4-6B550AD59475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747D1857-5C56-4D4E-B1B4-6B550AD59475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747D1857-5C56-4D4E-B1B4-6B550AD59475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747D1857-5C56-4D4E-B1B4-6B550AD59475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92B5724-5283-495C-9988-34D9012CDC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92B5724-5283-495C-9988-34D9012CDC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92B5724-5283-495C-9988-34D9012CDC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92B5724-5283-495C-9988-34D9012CDC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CE2605B-AAC7-43B0-BFFC-50E562439AC2} = {71899F27-0655-4915-8D19-9C8D1238E51C}
+		{D92B5724-5283-495C-9988-34D9012CDC4B} = {71899F27-0655-4915-8D19-9C8D1238E51C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0363C77D-566D-42EA-8D55-E418C09742A1}
+	EndGlobalSection
+EndGlobal

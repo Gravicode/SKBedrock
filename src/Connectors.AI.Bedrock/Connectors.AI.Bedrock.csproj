@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	  <NoWarn>$(NoWarn);NU5104</NoWarn>
+	  <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="ChatCompletion\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.ML" Version="3.0.0" />
+	  <PackageReference Include="Microsoft.SemanticKernel" Version="1.0.0-beta8" />
+	  <PackageReference Include="AWSSDK.BedrockAgent" Version="3.7.300.4" />
+	  <PackageReference Include="AWSSDK.BedrockAgentRuntime" Version="3.7.300.4" />
+	  <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	  <PackageReference Include="SharpToken" Version="1.2.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetFMPlayground.Core\DotnetFMPlayground.Core.csproj" />
+  </ItemGroup>
+</Project>
